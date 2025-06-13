@@ -12,6 +12,8 @@ Minecraft, like innumerable other Java programs, has used the Log4J logging libr
 
 You also will need to use a vulnerable Java version. If your Java version is not Java 6u201 and below, Java 7u191 and below, Java 8u181 and below, a Java 9 version, a Java 10 version, or Java 11.0.0, you will need to specify the Java command line argument `-Dcom.sun.jndi.ldap.object.trustURLCodebase=true` on the client if you are attacking the integrated server, or the server if you are attacking the dedicated server. I recommend performing Log4Shell on a dedicated server, but there isn't anything stopping you from performing it on an integrated server.
 
+To download the tools, download the latest release and unzip it.
+
 To run the LDAP and HTTP server, ensure you have Java 8 or newer installed. Then run `java -cp log4shelltools.jar xyz.terriblefriends.log4shelltools.HTTPServer [<port>]` and `java -cp log4shelltools.jar xyz.terriblefriends.log4shelltools.LDAPServer <URL> [<port>]` to start the HTTP and LDAP servers, respectively. Alternatively, run either "run.bat" if you are on Windows or "run.sh" if you are on Linux to start HTTP on port 8000 and LDAP on port 1389.
 
 
@@ -34,4 +36,5 @@ To create your own payloads, I recommend the usage of the Mod Coder Pack (MCP). 
 
 You can also use MCP-Reborn for versions 1.13 and above. You can download it [https://github.com/Hexeption/MCP-Reborn here]. I don't have any instructions for it because I have never used it.
 
-More info [https://mcdf.wiki.gg/wiki/User:Captain_S0L0/Log4Shell here].
+More info here:
+https://mcdf.wiki.gg/wiki/User:Captain_S0L0/Log4Shell
