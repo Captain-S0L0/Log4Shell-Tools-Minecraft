@@ -19,11 +19,11 @@ To run the LDAP and HTTP server, ensure you have Java 8 or newer installed. Then
 
 
 
-I recommend the usage of MultiMC if you are going to be downgrading client manifests. You can download it [https://multimc.org/ here].
+I recommend the usage of MultiMC if you are going to be downgrading client manifests. You can download it [here](https://multimc.org/).
 
 Most of the provided example payloads will only work on the '''vanilla 1.12 dedicated server'''. If you want to use Log4Shell on another version, you will need to create your own payloads. You will probably need to know some Java to do so.
 
-To create your own payloads, I recommend the usage of the Mod Coder Pack (MCP). You can download it [https://minecraft.wiki/w/Tutorial:Programs_and_editors/Mod_Coder_Pack#Downloads here]. The following instructions are a high level overview of how to create a payload with MCP.
+To create your own payloads, I recommend the usage of the Mod Coder Pack (MCP). You can download it [here](https://minecraft.wiki/w/Tutorial:Programs_and_editors/Mod_Coder_Pack#Downloads). The following instructions are a high level overview of how to create a payload with MCP.
 
 1) Download and extract MCP.
 2) Install the Java 8 Development Kit (JDK), and add it to the PATH system environment variable. Make sure that if you start a new terminal and run `java -version`, it says Java 8.
@@ -34,7 +34,7 @@ To create your own payloads, I recommend the usage of the Mod Coder Pack (MCP). 
 6) If recompilation succeeds, use the reobfuscate script to obfuscate your class file.
 7) Your generated class file will be in the "reobf/minecraft_server" folder.
 
-You can also use MCP-Reborn for versions 1.13 and above. You can download it [https://github.com/Hexeption/MCP-Reborn here]. I don't have any instructions for it because I have never used it.
+You can also use MCP-Reborn for versions 1.13 and above. You can download it [here](https://github.com/Hexeption/MCP-Reborn). I don't have any instructions for it because I have never used it.
 
 More info here:
 https://mcdf.wiki.gg/wiki/User:Captain_S0L0/Log4Shell
